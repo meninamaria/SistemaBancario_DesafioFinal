@@ -41,7 +41,7 @@ public class Banco {
                     ++alguemCadastrado;
                     GerenciamentoBanco gerenciar = new GerenciamentoBanco();
 
-                    System.out.println("------Menu------\n[1] Consultar Saldo\n[2] Sacar\n[3] Depositar\n[4] Sair\n------------------");
+                    System.out.println("--------Menu--------\n[1] Consultar Saldo\n[2] Sacar\n[3] Depositar\n[4] Sair\n--------------------");
                     System.out.print("Opção: ");
                     opcaoMenu2 = resposta.nextInt();
 
@@ -75,7 +75,7 @@ public class Banco {
                             System.out.println("Opção inválida!");
                         }
 
-                        System.out.println("------Menu------\n[1] Consultar Saldo\n[2] Sacar\n[3] Depositar\n[4] Sair\n------------------");
+                        System.out.println("--------Menu--------\n[1] Consultar Saldo\n[2] Sacar\n[3] Depositar\n[4] Sair\n--------------------");
                         System.out.print("Opção: ");
                         opcaoMenu2 = resposta.nextInt();
 
